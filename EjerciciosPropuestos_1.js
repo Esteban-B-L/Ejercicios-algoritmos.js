@@ -15,7 +15,7 @@ rl.question("Por favor ingrese su nombre: ", (Name) => {
         } else if (Horas > 10) {
             Salario = Horas * 33000;
         } else {
-            Salario = 0; // Si Horas es 0 o menos, el salario es 0
+            Salario = 0; 
         }
 
         console.log(`Señor/a ${Name}, el número de horas es ${Horas} y su salario equivale a $${Salario}.`);
